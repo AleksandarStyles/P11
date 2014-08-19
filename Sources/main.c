@@ -27,6 +27,7 @@
 /* MODULE main */
 
 // 1st comment in main
+// 2nd comment in main
 
 //lint -save -e9046 -e9026 -e808 -e835 -e322 -e7 -esym(9058,*) -e537
 /* Including needed modules to compile this module/procedure */
