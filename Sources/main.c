@@ -26,13 +26,8 @@
 */         
 /* MODULE main */
 
-// 1st comment in main
-<<<<<<< HEAD
 // 2nd comment in main
-// 3rd comment in main
 // 4th comment in main
-=======
->>>>>>> parent of a4af9f6... 2nd cmnt in main
 
 //lint -save -e9046 -e9026 -e808 -e835 -e322 -e7 -esym(9058,*) -e537
 /* Including needed modules to compile this module/procedure */
