@@ -26,8 +26,8 @@
 */         
 /* MODULE main */
 
-// 2nd comment in main
-// 4th comment in main
+// 1st comment in main
+// new comment after 2nd revert through GitHub for Windows
 
 //lint -save -e9046 -e9026 -e808 -e835 -e322 -e7 -esym(9058,*) -e537
 /* Including needed modules to compile this module/procedure */
