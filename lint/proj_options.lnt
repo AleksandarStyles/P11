@@ -1,0 +1,22 @@
+-i%PROJ_PATH%
+-i%PROJ_PATH%\Generated_Code
+-i%PROJ_PATH%\Sources
+-i%LOCAL_LNT_FILES%\au-misra3.lnt
+
+// Inhibit messages for Processor Expert libraries
+// Feel free to add to or remove the below suppress statments as needed. Suppressions made here are for all files in the project. The ones provided are only suggestions.
+-elib(10, 19) // suppress -> 10: Expecting 'String' -- String is the expected token. and 19: Useless Declaration
+-e830 // suppress -> Location cited in prior message
+-e831 // suppress -> Reference cited in prior message
+-e793 // suppress -> ANSI limit of String 'String' 'Name' exceeded
++libh(Cpu.h, IO_Map.h, PE_Const.h, PE_Error.h, PE_LDD.h, PE_Types.h, Events.h)
+
+// Coerce messages for Eclipse
+-hF1
++ffn
+-"format=%(%f:%l:%C:%) %t %n: %m"
+-frl
+// Do not break lines
+-width(0)
+// And make sure no foreign includes change the format
++flm
